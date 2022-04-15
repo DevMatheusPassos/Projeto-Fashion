@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +8,134 @@
 
         <link rel="stylesheet" href="css/indexStyle.css">
         <link rel="stylesheet" href="css/mediaQuerie/indexQuerie.css">
+        <script src="scripts/indexScript.js" defer></script>
 
-        <title>Fashion</title>
+        <title>Fashion - Git</title>
     </head>
     <body>
-        
+        <div id="container">
+            <header class="header">
+                <div class="header__logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+
+                <nav class="header__menu">
+                    <div class="menu__button" onclick="showMenu()"></div>
+
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                portfolio
+                            </a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                about us
+                            </a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="imageTop">
+                <img src="images/topo.jpg" alt="Modelo sentada e com a cabeça apoiada sobre o joelho">
+            </div>
+            <main class="main">
+                <section class="main__section main__sectionPortfolioAndGallleryCards">
+                    <article class="section__portfolio">
+                        <h1 class="portfolio__title">
+                            New Fashion Everything Never Enough
+                        </h1>
+
+                        <p class="portfolio__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat nisi non ante dictum congue. Cras id odio gravida, posuere velit sed, lacinia mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula, ipsum vel congue cursus, mi neque tincidunt enim, egestas porttitor felis neque et risus. Maecenas fringilla hendrerit enim malesuada laoreet. Aenean quis tortor a odio tempus tincidunt. Vivamus rutrum nulla sed metus congue bibendum. Sed ut aliquam purus. Donec odio mauris, commodo sed dignissim vitae, dapibus eget mauris.
+                        </p>
+                    </article>
+
+                    <div class="portfolio__galleryCards">
+                        <div class="galleryCards__card">
+                            <div class="galleryCards__img">
+                                <img src="images/modelo1.jpg" alt="modelo usando vest romasa">
+                            </div>
+
+                            <h3 class="galleryCards__name">
+                                vest romasa
+                            </h3>
+
+                            <p class="galleryCards__subtitle">
+                                Strong & charismatic
+                            </p>
+                        </div>
+
+                        <div class="galleryCards__card">
+                            <div class="galleryCards__img">
+                                <img src="images/modelo2.jpg" alt="modelo usando jacket fima">
+                            </div>
+
+                            <h3 class="galleryCards__name">
+                                jacket fima
+                            </h3>
+
+                            <p class="galleryCards__subtitle">
+                                Strong Sersonality
+                            </p>
+                        </div>
+
+                        <div class="galleryCards__card">
+                            <div class="galleryCards__img">
+                                <img src="images/modelo3.jpg" alt="modelo usando jacket black kira">
+                            </div>
+
+                            <h3 class="galleryCards__name">
+                                jacket black kira
+                            </h3>
+
+                            <p class="galleryCards__subtitle">
+                                Power Fascinating
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="main__section main__sectionAboutUs">
+                    <article class="section__aboutUs">
+                        <h2 class="aboutUs__title">
+                            everything never enough just fashion
+                        </h2>
+
+                        <p class="aboutUs__text">
+                            Praesent placerat eros eget lacus ullamcorper, id dapibus ante vestibulum. Curabitur quis condimentum diam. Duis aliquet erat vel laoreet tincidunt. Pellentesque vitae varius ligula. Phasellus in nibh tempus, gravida justo et, suscipit felis. Cras ornare arcu ac sodales tincidunt. Mauris vehicula erat vel ligula porttitor imperdiet. Curabitur nec magna urna. Sed porta ex ex, at pulvinar nibh aliquet quis. Integer dapibus congue vestibulum. Phasellus bibendum lobortis quam, nec sollicitudin nisl volutpat at.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="main__section main__sectionContact">
+                    <address class="section__contact">
+                        <p class="contact__text">
+                            call me now for design
+                        </p>
+
+                        <p class="contact__text">
+                            +00 9999-9999
+                        </p>
+                    </address>
+                </section>
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28060.99347780599!2d-52.83442986189413!3d-28.460743229079593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd493c92d28c8f%3A0x6ff21ca741cec0c8!2sN%C3%A3o-Me-Toque%2C%20RS%2C%2099470-000!5e0!3m2!1spt-BR!2sbr!4v1620089640117!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </main>
+            <footer class="footer">
+                <p class="footer__text">
+                    Copyright &copy; FastFashion.com
+                </p>
+            </footer>
+        </div>
     </body>
 </html>
