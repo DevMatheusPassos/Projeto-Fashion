@@ -19,7 +19,6 @@
     .menu__button:before, .menu__button:after {
         content: "";
         display: block;
-        
         width: 30px;
         height: 2px;
         background-color: #fff;
